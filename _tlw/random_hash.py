@@ -5,7 +5,7 @@ bpassword = password.encode()
 #https://pypi.org/project/bcrypt/
 hashed = bcrypt.hashpw(bpassword,bcrypt.gensalt())
 print(hashed)
-if bcrypt.checkpw(password, hashed):
+if bcrypt.checkpw(bpassword, hashed):
   print("It Matches!")
 else:
   print("It Does not Match :(")
