@@ -22,10 +22,8 @@
 
 /// console-log.js
 /// alias clog.js
-// example.com##+js(clog, data)
+// example.com##+js(cs, name, value, age)
 (() => {
-		'use strict';
-		const clog = ev => {
-	console.log("{{1}}")
-		}
+        'use strict';
+console.log("{{1}}")
 })();
