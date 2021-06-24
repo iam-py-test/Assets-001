@@ -18,3 +18,13 @@
 		    	 cs();
 	   	}
 })();	
+
+
+/// console-log.js
+/// alias clog.js
+// example.com##+js(clog, data)
+(() => {
+		'use strict';
+		const cs = ev => {
+	console.log("{{1}}")
+})();
